@@ -1,8 +1,8 @@
 class Nex < Formula
     desc "NEX CLI"
     homepage "https://chipnexus.ai/"
-    version "4.3.0"
-    license "MIT"
+    version "0.0.0"
+    license "Proprietary"
     
     SHA256_MACOS = "<PASTE_SHA256_FOR_MACOS_ARM64_TGZ>"
     SHA256_LINUX = "<PASTE_SHA256_FOR_LINUX_AMD64_TGZ>"
