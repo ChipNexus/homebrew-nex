@@ -5,10 +5,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/v/release/ChipNexus/homebrew-nex?color=7C3AED" alt="GitHub release" />
-  <img src="https://img.shields.io/badge/status-preview-F59E0B" alt="Preview status" />
-  <img src="https://img.shields.io/badge/platform-macOS%20arm64%20%7C%20Linux%20amd64%20%7C%20WSL2-8B5CF6" alt="Platform" />
-  <img src="https://img.shields.io/github/downloads/ChipNexus/homebrew-nex/total?color=A855F7" alt="Downloads" />
+  <img src="https://img.shields.io/github/v/release/ChipNexus/homebrew-nex?color=EA580C" alt="GitHub release" />
+  <img src="https://img.shields.io/badge/status-preview-F97316" alt="Preview status" />
+  <img src="https://img.shields.io/badge/platform-macOS%20arm64%20%7C%20Linux%20amd64%20%7C%20WSL2-FB923C" alt="Platform" />
+  <img src="https://img.shields.io/github/downloads/ChipNexus/homebrew-nex/total?color=F59E0B" alt="Downloads" />
 </p>
 
 This repository provides the official Homebrew tap for installing and updating the `nex` CLI. The software is distributed as prebuilt binaries for macOS (Apple Silicon) and Linux (amd64), including Windows Subsystem for Linux (WSL2).

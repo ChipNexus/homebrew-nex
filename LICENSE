@@ -1,0 +1,23 @@
+Copyright (c) ChipNexus, Inc. All rights reserved.
+
+This repository and the NEX software it distributes are proprietary and confidential.
+No part of this software may be copied, modified, distributed, sublicensed, or used
+except as expressly authorized by ChipNexus.
+
+Use of the NEX software is subject to the applicable commercial agreement, terms of
+service, or license granted by ChipNexus.
+
+Third-Party Software
+--------------------
+
+NEX includes and depends on components that are licensed under various open source
+licenses. Those components remain subject to their respective licenses and
+copyright terms.
+
+Where required, copies of third-party licenses and attributions are provided within
+this repository, in distributed binaries, or via accompanying documentation.
+
+Nothing in this license overrides or restricts the rights granted under those
+third-party open source licenses.
+
+For licensing questions, contact: support@chipnexus.ai
