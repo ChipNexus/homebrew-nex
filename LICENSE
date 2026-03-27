@@ -1,23 +1,29 @@
 Copyright (c) ChipNexus, Inc. All rights reserved.
 
-This repository and the NEX software it distributes are proprietary and confidential.
-No part of this software may be copied, modified, distributed, sublicensed, or used
-except as expressly authorized by ChipNexus.
+NEX, including its binaries, source code, documentation, and related materials,
+is proprietary software of ChipNexus, Inc. and is protected by applicable
+intellectual property laws.
 
-Use of the NEX software is subject to the applicable commercial agreement, terms of
-service, or license granted by ChipNexus.
+Except as expressly authorized in a separate written agreement with ChipNexus, Inc.
+or in the applicable End User License Agreement provided with the software, no
+license or other right is granted to use, copy, modify, distribute, sublicense,
+disclose, reverse engineer, create derivative works from, or otherwise exploit
+NEX or any portion of it.
+
+Receipt, download, installation, access to, or use of NEX does not grant any
+license by implication, estoppel, or otherwise.
+
+Use of NEX is governed solely by the applicable ChipNexus End User License
+Agreement and any related commercial agreement with ChipNexus, Inc.
 
 Third-Party Software
 --------------------
 
-NEX includes and depends on components that are licensed under various open source
-licenses. Those components remain subject to their respective licenses and
-copyright terms.
+NEX may include or depend on third-party software components that are subject to
+separate license terms. Those components are licensed under their respective
+terms, and nothing in this notice limits or replaces rights granted under such
+third-party licenses.
 
-Where required, copies of third-party licenses and attributions are provided within
-this repository, in distributed binaries, or via accompanying documentation.
+All rights not expressly granted by ChipNexus, Inc. are reserved.
 
-Nothing in this license overrides or restricts the rights granted under those
-third-party open source licenses.
-
-For licensing questions, contact: support@chipnexus.ai
+For licensing inquiries, contact: contact@chipnexus.ai

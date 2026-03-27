@@ -58,4 +58,9 @@ If you need help, want to request a feature, or encounter issues:
 
 - Read the official documentation: https://docs.chipnexus.ai
 - Open an issue on this repository: https://github.com/ChipNexus/homebrew-nex/issues
-- Contact support via email: [support@chipnexus.ai](mailto:support@chipnexus.ai)
+- Contact support via email: [contact@chipnexus.ai](mailto:contact@chipnexus.ai)
+
+## Legal
+
+- NEX and the contents of this repository are proprietary to ChipNexus, Inc. See the [LICENSE](LICENSE).
+- Use of NEX is governed by the applicable [End User License Agreement (EULA)](EULA.md) and any related commercial agreement with ChipNexus, Inc.
