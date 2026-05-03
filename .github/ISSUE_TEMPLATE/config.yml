@@ -3,9 +3,3 @@ contact_links:
   - name: Documentation
     url: https://docs.chipnexus.ai
     about: Read setup guides and troubleshooting docs.
-  - name: Feature Requests
-    url: https://github.com/ChipNexus/homebrew-nex/issues/new?labels=enhancement
-    about: Suggest improvements and new capabilities.
-  - name: Support
-    url: https://github.com/ChipNexus/homebrew-nex/issues/new/choose
-    about: Open the most appropriate issue form for help or support.
