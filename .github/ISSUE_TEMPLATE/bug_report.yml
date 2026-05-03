@@ -1,0 +1,155 @@
+name: Bug report
+description: Report a problem with NEX CLI.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue. Please provide as much detail as possible.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear and concise description of the bug.
+      placeholder: NEX returns an invalid constraint suggestion for a simple timing setup.
+    validations:
+      required: true
+
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use Case
+      description: What hardware design or EDA task were you trying to accomplish?
+      placeholder: Linting SystemVerilog and asking NEX to suggest fixes for synthesis
+        warnings.
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_behavior
+    attributes:
+      label: Current Behavior
+      description: What is happening now?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected Behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps To Reproduce
+      description: Paste the exact CLI commands and the exact prompt text you sent to
+        the model. If possible, include a minimal repro (e.g. a small Verilog
+        file and the prompt you used to analyze it).
+      placeholder: |
+        1. Run: nex --agent=fpga
+        2. Prompt: "Review ./rtl/top.sv for CDC issues and suggest fixes"
+        3. Observe output/error
+      render: text
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      description: Select the environment where the issue occurs.
+      options:
+        - Windows (WSL2)
+        - macOS
+        - Linux
+    validations:
+      required: true
+
+  - type: input
+    id: os_version
+    attributes:
+      label: OS version
+      placeholder: Ubuntu 24.04 on WSL2 / macOS 14.5 / Fedora 41
+    validations:
+      required: true
+
+  - type: input
+    id: arch
+    attributes:
+      label: Architecture
+      placeholder: arm64 or x86_64
+    validations:
+      required: true
+
+  - type: input
+    id: nex_version
+    attributes:
+      label: NEX CLI version
+      description: Output of nex --version
+      placeholder: v5.21.1
+    validations:
+      required: true
+
+  - type: input
+    id: install_method
+    attributes:
+      label: Installation method
+      options:
+        - Homebrew
+        - Manual
+    validations:
+      required: true
+
+  - type: input
+    id: shell
+    attributes:
+      label: Shell
+      placeholder: bash / zsh / fish / PowerShell (WSL)
+
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+      description: Select the provider for the model.
+      options:
+        - ChipNexus
+        - OpenAI
+        - AWS Bedrock
+        - Local model
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: model_name
+    attributes:
+      label: Model name
+      placeholder: gpt-5.3-codex
+    validations:
+      required: true
+
+  - type: input
+    id: languages_used
+    attributes:
+      label: Languages used
+      placeholder: Verilog / SystemVerilog / VHDL / Tcl / Python
+
+  - type: input
+    id: toolchain
+    attributes:
+      label: Toolchain
+      placeholder: Icarus / Verilator / Questa / Vivado / Quartus
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add any other context, screenshots, logs, workarounds, or related links.
+        You can drag and drop files here (or paste images/log files).
+      placeholder: Drag and drop screenshots, logs, or small repro files into this field.
