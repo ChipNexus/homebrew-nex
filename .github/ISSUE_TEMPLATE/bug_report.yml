@@ -96,7 +96,7 @@ body:
     validations:
       required: true
 
-  - type: input
+  - type: dropdown
     id: install_method
     attributes:
       label: Installation method
@@ -112,7 +112,7 @@ body:
       label: Shell
       placeholder: bash / zsh / fish / PowerShell (WSL)
 
-  - type: input
+  - type: dropdown
     id: provider
     attributes:
       label: Provider
