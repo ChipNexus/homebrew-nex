@@ -1,0 +1,106 @@
+name: Feature request
+description: Suggest an improvement for NEX CLI.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement. Please share context and expected impact.
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: A clear and concise description of the requested feature.
+      placeholder: Add a command to export lint findings to JSON for CI dashboards.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What limitation or workflow issue are you hitting today?
+      placeholder: We cannot reliably consume NEX output in our CI pipeline.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution
+      description: Describe your ideal behavior or command/API design.
+      placeholder: Add --json-output and document a stable schema.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What workarounds or alternative approaches have you tried?
+      placeholder: Parsing plain text output with regex, custom wrappers, etc.
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: How important is this request for your workflow?
+      options:
+        - Nice to have
+        - Important
+        - Critical
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: OS
+      options:
+        - Windows (WSL2)
+        - macOS
+        - Linux
+    validations:
+      required: true
+
+  - type: input
+    id: nex_version
+    attributes:
+      label: NEX CLI version
+      description: Output of nex --version
+      placeholder: v5.21.1
+    validations:
+      required: true
+
+  - type: dropdown
+    id: provider
+    attributes:
+      label: Provider
+      description: Select the provider for the model.
+      options:
+        - ChipNexus
+        - OpenAI
+        - AWS Bedrock
+        - Local model
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: model_name
+    attributes:
+      label: Model name
+      placeholder: gpt-5.3-codex
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional context
+      description: Add logs, examples, screenshots, or links that clarify the request.
+      placeholder: Include sample prompts, expected output format, and links to
+        related issues.
