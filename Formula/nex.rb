@@ -1,11 +1,11 @@
 class Nex < Formula
     desc "NEX CLI"
     homepage "https://chipnexus.ai/"
-    version "5.26.1"
+    version "5.34.3"
     license "Proprietary"
     
-    SHA256_MACOS = "b25db2e0529a30a9b2066f8217898f1ee4cae4ceccf049eb37219f27c3e6be70"
-    SHA256_LINUX = "b07df2f62803eac7eaffa4f4a1c1e8a5556dd605380062b1cd2083a9cc36f112"
+    SHA256_MACOS = "8ca42eb23a64e87584306bb0c4cd2c627d08c3155d11175003aded713108d6a4"
+    SHA256_LINUX = "3c46514c80bd5de9a0fe66bd95779dcaf408f3c166bc60a31cc2f7eb1f8f25ea"
 
     on_macos do
         on_arm do
