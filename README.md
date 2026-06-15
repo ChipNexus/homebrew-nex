@@ -22,6 +22,7 @@ This repository provides the official Homebrew tap for installing and updating t
 
 ```bash
 brew tap ChipNexus/nex
+brew trust ChipNexus/nex
 brew install nex
 ```
 
