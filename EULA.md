@@ -1,6 +1,6 @@
 # END USER LICENSE AGREEMENT FOR NEX
 
-Last updated: March 27, 2026
+Last updated: June 20, 2026
 
 This End User License Agreement ("EULA") is a legally binding agreement between you and ChipNexus ("ChipNexus," "Company," "we," "us," or "our") governing your access to and use of the NEX software platform, related documentation, and updates that we make available under this EULA (collectively, the "Software").
 
@@ -70,6 +70,7 @@ The Software may rely on artificial intelligence, machine learning models, and a
 - Output may reflect limitations in training data, models, or third-party dependencies
 - Output is not legal, financial, medical, or other professional advice
 - you are responsible for reviewing, validating, and testing Output before relying on it in design, manufacturing, operational, legal, or business decisions
+- you are solely responsible for maintaining adequate backup, version control, and disaster recovery practices when using the Software to modify files, codebases, designs, or other assets in their environment.
 
 The Software is an evolving technology. ChipNexus may update features, models, workflows, and Output behavior over time.
 
